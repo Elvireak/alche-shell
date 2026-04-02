@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(($divide/$rule))
+echo $((divide/rule))
