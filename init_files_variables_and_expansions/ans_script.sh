@@ -10,7 +10,7 @@ chmod u+x ${file_name}
 
 git add .
 
-git commit -m "Added file ${file_name}to the repo"
+git commit -m "Added file ${file_name} to the repo"
 
 git push
 
