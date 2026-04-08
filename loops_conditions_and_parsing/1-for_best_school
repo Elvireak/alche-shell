@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#This script is displaying "Best school" ten times
-
+#This script is displaying "Best School" ten times
 for i in {1..10}; do
     echo "Best School"
+done
