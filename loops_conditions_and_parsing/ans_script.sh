@@ -16,7 +16,7 @@ rm "$tmp_file"
 
 echo -e "#!/usr/bin/env bash" > ${file_name}
 echo -e ${comment} >> ${file_name}
-printf "%s" "${cmd}" >> ${file_name}
+printf "%s\n" "${cmd}" >> ${file_name}
 
 chmod u+x ${file_name}
 
